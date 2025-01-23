@@ -14,7 +14,6 @@ import PageHeader from "@/Components/PageHeader";
  * @param {Object} flash - Flash messages from the server for notifications
  */
 export default function Index({ products = [], flash = {} }) {
-    console.log(products);
     // Display success message when flash message is present
     React.useEffect(() => {
         if (flash?.message) {

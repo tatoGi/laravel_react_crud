@@ -64,3 +64,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+### Key Features
+
+- SPA-like navigation without full page reloads
+- Server-side rendering capabilities
+- Shared authentication state
+- Laravel's route handling with Ziggy integration
+- Form handling and validation
+- File uploads
+
+## Project Structure
+
+- `resources/js/Pages/` - Inertia page components
+- `resources/js/Components/` - Reusable React components
+- `routes/web.php` - Laravel routes definition
+- `app/Http/Controllers/` - Laravel controllers
+- `app/Http/Middleware/HandleInertiaRequests.php` - Shared Inertia data
+
+## Development Workflow
+
+1. Define routes in `routes/web.php`
+2. Create controllers to handle requests
+3. Create React components in `resources/js/Pages`
+4. Use Ziggy's `route()` helper for linking
+5. Use Inertia's utilities for forms and navigation
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Useful Resources
+
+- [Laravel Documentation](https://laravel.com/docs)
+- [Inertia.js Documentation](https://inertiajs.com/)
+- [Ziggy Documentation](https://github.com/tighten/ziggy)
+- [React Documentation](https://reactjs.org/)
