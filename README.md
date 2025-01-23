@@ -90,14 +90,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 4. Use Ziggy's `route()` helper for linking
 5. Use Inertia's utilities for forms and navigation
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -106,5 +98,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Laravel Documentation](https://laravel.com/docs)
 - [Inertia.js Documentation](https://inertiajs.com/)
+  - [Form Handling](https://inertiajs.com/forms)
+  - [Shared Data](https://inertiajs.com/shared-data)
+  - [Manual Visits](https://inertiajs.com/manual-visits)
 - [Ziggy Documentation](https://github.com/tighten/ziggy)
+  - [Route Generation](https://github.com/tighten/ziggy#javascript-route-generation)
+  - [Route Checking](https://github.com/tighten/ziggy#checking-the-current-route)
+  - [Configuration](https://github.com/tighten/ziggy#advanced-configuration)
 - [React Documentation](https://reactjs.org/)
